@@ -12,8 +12,6 @@ import authRoutes from './routes/auth.js';
 import userRoutes from './routes/users.js';
 import studyRoutes from './routes/study.js';
 import { authenticateSocket } from './middleware/auth.js';
-import emailService from './services/emailService.js';
-emailService.reinitialize();
 
 // Validate required environment variables
 if (!process.env.JWT_SECRET) {
