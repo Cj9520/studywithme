@@ -12,6 +12,16 @@ node_modules/
 */.env.local
 */.env.*.local
 
+.ARCHITECTURE.md
+.DEPLOYMENT.md
+.DEPLOYMENT_QUICK_REFERENCE.md
+.DEPLOYMENT_SUMMARY.md
+.DOCUMENTATION_INDEX.md
+.FILES_CHECKLIST.md
+.SETUP_COMPLETE.md
+.START_HERE.md
+.README_DEPLOYMENT.md
+
 # Build outputs
 /frontend/dist/
 /frontend/build/
